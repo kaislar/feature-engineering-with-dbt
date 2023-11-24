@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Repo contains the SQL queries code use in the article "Feature Engineering with DBT for Data Warehouses"
+This Repo contains the SQL queries code used in the article "Feature Engineering with DBT for Data Warehouses"
 
 ## Prerequisites
 
