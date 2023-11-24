@@ -2,11 +2,15 @@
 version: 2
 
 models:
-    - name: my_first_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+  - name: sales
+    columns:
+      - name: date
+        description: "The date of the sale"
+        tests:
+          - not_null
+      - name: store_nbr
+        description: "The store id"
+        tests:
+          - not_null
+      - name: transactions
+        description: "The amount of transactions"
