@@ -1,16 +1,45 @@
-### Introduction
+# Feature Engineering with DBT for Data Warehouses
+
+## Overview
 
 This Repo contains the SQL queries code use in the article "Feature Engineering with DBT for Data Warehouses"
 
-### Once on DBT you can use the following commands
+## Prerequisites
 
-- dbt run
-- dbt test
+Before you begin, ensure you have met the following requirements:
+
+- [dbt](https://docs.getdbt.com/docs/introduction/installation) installed locally.
+- Access to a database that dbt can connect to.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/kaislar/feature-engineering-with-dbt.git
+   cd feature-engineering-with-dbt
+
+2. **Configure your dbt profiles.yml file with the necessarydatabase connection details.**
+
+3. **Install dbt dependencies:**
+
+    ```bash
+    dbt deps
+
+4. **Running dbt:**
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+    ```bash
+    dbt run
+    dbt test
+
+## Contributing
+- Fork the repository.
+
+- Create a new branch: git checkout -b feature/your-feature-name.
+
+- Commit your changes: git commit -m 'Add some feature'.
+
+- Push to the branch: git push origin feature/your-feature-name.
+
+- Submit a pull request.
